@@ -14,6 +14,7 @@ const BookCard = ({ id, price, description, category, onRemove, onUpdate }) => {
         }
     };
 
+    
     const handleEditProduct = () => {
         setIsEditing(true);
     };
